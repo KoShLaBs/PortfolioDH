@@ -1,0 +1,14 @@
+@import url(home/header.css);
+@import url(home/body.css);
+
+
+body{
+    background:url(../ASSESTS/fondo.jpg) no-repeat center center; 
+    background-size: cover;
+}
+
+.imagen{
+    width: 50%;
+    border: 0.2rem solid #D9D9D9;
+    border-radius: 0.8rem;
+}
