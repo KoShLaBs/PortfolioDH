@@ -1,0 +1,28 @@
+.footer{
+    grid-column: 1 / 4;
+    grid-row: 4;
+    width: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.indeed{
+    grid-column: 1/ 2;
+    grid-row: 1;
+}
+
+.instagram{
+    grid-column: 2/ 3;
+    grid-row: 1;
+}
+
+.behance{
+    grid-column: 3/ 4;
+    grid-row: 1;
+}
+
+.footer img{
+    width: 10px;
+}

@@ -1,14 +1,14 @@
 @import url(home/header.css);
 @import url(home/body.css);
+@import url(home/footer.css);
 
-
-body{
-    background:url(../ASSESTS/fondo.jpg) no-repeat center center; 
-    background-size: cover;
+html{
+    background:url(../ASSESTS/fondo.jpg) no-repeat; 
+    
 }
 
-.imagen{
+.imageness{
     width: 50%;
-    border: 0.2rem solid #D9D9D9;
+    border: 0.1rem solid #D9D9D9;
     border-radius: 0.8rem;
 }
