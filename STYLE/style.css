@@ -1,12 +1,13 @@
 @import url(fonts.css);
 @import url(home.css);
+@import url(contact.css);
 
-*{
-    background:url(../ASSESTS/fondo.jpg) no-repeat center center; 
+html{
+    background:url(../ASSESTS/fondo.jpg) center center; 
     background-size: cover;
 }
 
-body{
+*{
     margin: 0;
     padding: 0;
 }

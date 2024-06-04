@@ -1,11 +1,6 @@
-@import url(home/header.css);
+@import url(header.css);
 @import url(home/body.css);
 @import url(home/footer.css);
-
-html{
-    background:url(../ASSESTS/fondo.jpg) no-repeat; 
-    
-}
 
 .imageness{
     width: 50%;

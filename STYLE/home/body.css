@@ -3,12 +3,12 @@ main{
 }
 
 .home{
-    margin-top: 8rem;
+    margin-top: 10rem;
     position: absolute;
     display: grid;
     grid-template-rows: (4, 2fr);
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 7rem;
+    grid-gap: 10rem;
     grid-auto-rows: minmax(100px, auto);
     /* ----------------------------------------  */
 }
@@ -23,11 +23,13 @@ main{
 }
 
 .esencia-div{
+    position: absolute;
     border: solid 0.1rem #000000;
-    border-radius: 2rem;
-    width: 100%;
+    border-radius: 3rem;
+    width: 25%;
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
 }
 
 .esencia-div h1{

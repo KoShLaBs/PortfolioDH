@@ -1,0 +1,122 @@
+.profilemain{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10rem;
+    width: 100%;
+    display: grid;
+    grid-template-rows: (4, 1fr);
+    grid-gap: 8rem;
+}
+
+/* ----------------------------------------  */
+
+.profile{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.profile-div{
+    position: absolute;
+    border: solid 0.1rem #000000;
+    border-radius: 3rem;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.profile-div h1{
+    font-weight: 500;
+}
+
+/* ----------------------------------------  */
+
+.foto{
+    grid-column: 1;
+    grid-row: 2/3;
+    
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img{
+    margin: 0;
+    width: 30%;
+    padding: 2rem;
+}
+
+/* ----------------------------------------  */
+
+.links{
+    grid-column: 1;
+    grid-row: 3/4;
+
+    display: grid;
+    grid-template-rows: (4, 1fr);
+    grid-gap: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links p{
+    padding-left: 5rem;
+}
+
+.links .indeed{
+    grid-column: 1;
+    grid-row: 1/2;
+
+    display: flex;
+    justify-content: start;
+    margin-left: 7rem;
+}
+
+.links .instagram{
+    grid-column: 1;
+    grid-row: 2/3;
+
+    display: flex;
+    justify-content: start;
+    margin-left: 7rem;
+}
+
+.links .behance{
+    grid-column: 1;
+    grid-row: 3/4;
+
+    display: flex;
+    justify-content: start;
+    margin-left: 7rem;
+}
+
+.links .correo{
+    grid-column: 1;
+    grid-row: 4/5;
+    
+    display: flex;
+    justify-content: start;
+    margin-left: 7rem;
+}
+
+
+.links img{
+    width: 7%;
+}
+
+/* ----------------------------------------  */
+
+.footer{
+    grid-column: 1;
+    grid-row: 4/5;
+}

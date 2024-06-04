@@ -1,28 +1,30 @@
 .footer{
     grid-column: 1 / 4;
     grid-row: 4;
-    width: 30rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 7rem;
-    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 0.15rem #000000;
 }
 
 .indeed{
-    grid-column: 1/ 2;
-    grid-row: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .instagram{
-    grid-column: 2/ 3;
-    grid-row: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .behance{
-    grid-column: 3/ 4;
-    grid-row: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .footer img{
-    width: 10px;
+    width: 7%;
 }
+
