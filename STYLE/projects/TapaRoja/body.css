@@ -1,0 +1,73 @@
+.taparoja{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: grid;
+    grid-template-rows: (4, 2fr);
+    grid-template-columns: (2, auto);
+    grid-gap: 2rem;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 10rem;
+}
+
+/* -----------------------------------------  */
+
+.imagen-principal{
+    grid-column: 1 / 3 ;
+    grid-row: 1 / 2;
+}
+
+/* ----------------------------------------  */
+
+.acerca{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+/* ----------------------------------------  */
+
+.scroll-acerca{
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+    
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 10rem;
+
+}
+
+.scroll-acerca1{
+    position: relative;
+    z-index: 2;
+
+}
+
+.scroll-acerca > img{
+    z-index: 1;
+    position: absolute;
+    transition: all .3s;
+    transform: scale(1.1);
+    opacity: .5;
+}
+
+/* ----------------------------------------  */
+
+.scroll-secundario{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+/* ----------------------------------------  */
+
+.scroll-tercera{
+    grid-column: 2 / 3 ;
+    grid-row: 3 / 4;
+}
+
+/* ----------------------------------------  */
+
+.footer{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
