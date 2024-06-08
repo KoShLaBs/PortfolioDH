@@ -41,7 +41,7 @@
 
 .imagenes img{
     width: 80%;
-    
+    cursor: pointer;
 }
 
 .scroll1 .cards{
@@ -153,8 +153,10 @@ h1{
     backdrop-filter: blur(40px);
     border-radius:1rem;
     padding:3rem;
-    width: 70%;
+    width: 100%;
+    font-style: italic;
 
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
