@@ -123,8 +123,6 @@ h6{
     grid-row: 1 / 1;
     width: 50%;
     margin-bottom: 1.5rem;
-    align-self: flex-end;
-    justify-self: center;
 }
 
 .button{
@@ -137,6 +135,13 @@ h6{
     font-size: 1.4rem;
     position: absolute;
 
+}
+
+.button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .button img{
