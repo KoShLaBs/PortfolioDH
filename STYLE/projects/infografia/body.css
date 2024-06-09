@@ -1,0 +1,29 @@
+.girasol{
+    display: grid;
+    grid-template-rows: (3, 2fr);
+}
+
+
+/* -----------------------------------------  */
+
+.girasol .imagen-principal{
+    grid-column: 1 / 2 ;
+    grid-row: 1 / 2;
+
+}
+
+/* -----------------------------------------  */
+
+.girasol .acerca{
+    grid-column: 1 / 2 ;
+    grid-row: 2 / 3;
+    
+}
+
+/* -----------------------------------------  */
+
+.girasol .footer{
+    grid-column: 1 / 2 ;
+    grid-row: 3 / 4;
+
+}
